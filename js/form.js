@@ -1,10 +1,10 @@
 class Form{
     constructor(){
-       this.input = createInput("Name");
-       this.button = createButton('Play');
+       this.input = createInput("Nome");
+       this.button = createButton('Jogar');
        this.greeting = createElement('h2');
        this.title = createElement('h2');
-       this.reset = createButton('Reset');
+       this.reset = createButton('Reiniciar');
     }
     hide() {
         this.greeting.hide();
@@ -13,7 +13,7 @@ class Form{
         this.title.hide();
     }
     display() {
-        this.title.html("FRUIT CATCHER");
+        this.title.html("APANHADOR DE FRUTAS");
         this.title.position(350, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
