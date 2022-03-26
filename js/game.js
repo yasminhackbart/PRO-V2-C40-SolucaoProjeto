@@ -60,7 +60,7 @@ class Game{
                          
                          fill("black");
                          textSize(25);
-                         text(allPlayers[plr].name ,x-25,y+25);
+                       //adicione o coódigo para exibir o nome do jogador na respectiva cesta
 
                          
                      }
